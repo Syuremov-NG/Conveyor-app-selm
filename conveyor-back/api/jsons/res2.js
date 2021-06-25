@@ -1,0 +1,40 @@
+export default {
+  division: "Дивизион тракторной техники",
+  area: "Главный конвейер сборки тракторов",
+  plan: 90,
+  fact: 130,
+  shiftEnds: "16:00",
+  table: {
+    day: {
+      plan: 5,
+      planCurr: 5,
+      factCurr: 0,
+    },
+    month: {
+      plan: 82,
+      planCurr: 60,
+      factCurr: "50",
+    },
+  },
+  install: [
+    { code: "Z02", equip: "3000.01.00.000-03", number: "000060" },
+    { code: "65", equip: "2375.01.00.000-04", number: "000700" },
+    { code: "63", equip: "2375.01.00.000-04", number: "000699" },
+    { code: "Z05", equip: "3000.01.00.000-03", number: "000061" },
+    { code: "63", equip: "2375.01.00.000-04", number: "000698" },
+  ],
+  conv: [
+    { code: "87", equip: "2375.01.00.000-04", number: "000690" },
+    { code: "65", equip: "2375.01.00.000-04", number: "000691" },
+    { code: "Z05", equip: "3000.01.00.000-03", number: "000058" },
+    { code: "63", equip: "2375.01.00.000-04", number: "000692" },
+    { code: "93", equip: "3000.01.00.000-03", number: "000059" },
+    { code: "63", equip: "2375.01.00.000-04", number: "000692" },
+    { code: "62", equip: "2375.01.00.000-04", number: "000693" },
+    { code: "87", equip: "2375.01.00.000-04", number: "000694" },
+    { code: "87", equip: "2375.01.00.000-04", number: "000695" },
+    { code: "62", equip: "2375.01.00.000-04", number: "000696" },
+    { code: "87", equip: "2375.01.00.000-04", number: "000697" },
+  ],
+  build: [],
+};
