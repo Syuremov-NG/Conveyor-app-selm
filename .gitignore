@@ -8,6 +8,7 @@
 # testing
 /coverage
 /conveyor-back
+/src
 
 # production
 /build
