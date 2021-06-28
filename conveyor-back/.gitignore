@@ -5,3 +5,5 @@ package-lock.json
 /config/production.json
 mongod.lock
 /daemon
+/conveyor-back
+/old
